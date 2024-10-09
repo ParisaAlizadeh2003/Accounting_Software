@@ -1,0 +1,13 @@
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_DataLayer\bin\Debug\Accounting_DataLayer.dll.config
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_DataLayer\bin\Debug\Accounting_DataLayer.pdb
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_DataLayer\obj\Debug\Accounting_DataLayer.csproj.AssemblyReference.cache
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_DataLayer\obj\Debug\Accounting_DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_DataLayer\obj\Debug\Accounti.BC8F801F.Up2Date
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_DataLayer\obj\Debug\Accounting_DataLayer.dll
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_DataLayer\obj\Debug\Accounting_DataLayer.pdb
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_DataLayer\bin\Debug\Accounting_ViewModel.dll
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_DataLayer\bin\Debug\Accounting_ViewModel.pdb

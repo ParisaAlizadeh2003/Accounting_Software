@@ -1,0 +1,14 @@
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_Bussines\bin\Debug\Accounting_Bussines.dll
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_Bussines\bin\Debug\Accounting_Bussines.pdb
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_Bussines\obj\Debug\Accounting_Bussines.csproj.AssemblyReference.cache
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_Bussines\obj\Debug\Accounting_Bussines.csproj.CoreCompileInputs.cache
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_Bussines\obj\Debug\Accounting_Bussines.dll
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_Bussines\obj\Debug\Accounting_Bussines.pdb
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_Bussines\bin\Debug\Accounting_DataLayer.dll
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_Bussines\bin\Debug\Accounting_ViewModel.dll
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_Bussines\bin\Debug\Accounting_ViewModel.pdb
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_Bussines\obj\Debug\Accounti.F6889494.Up2Date
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_Bussines\bin\Debug\EntityFramework.dll
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_Bussines\bin\Debug\Accounting_DataLayer.pdb
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_Bussines\bin\Debug\Accounting_DataLayer.dll.config
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_Bussines\bin\Debug\EntityFramework.xml

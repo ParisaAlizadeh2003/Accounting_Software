@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Accounting_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Accounting">
+    <Key>
+      <PropertyRef Name="Accounting_Id" />
+    </Key>
+    <Property Name="Accounting_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Customer_Id" Type="int" />
+    <Property Name=" Type_Id" Type="int" Nullable="false" />
+    <Property Name="Amount" Type="int" Nullable="false" />
+    <Property Name=" Description" Type="nvarchar" MaxLength="500" />
+    <Property Name="DateTime" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AccountingTypes">
+    <Key>
+      <PropertyRef Name="TypeID" />
+    </Key>
+    <Property Name="TypeID" Type="int" Nullable="false" />
+    <Property Name="TypeTitle" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="fullname" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="fathername" Type="nvarchar" MaxLength="50" />
+    <Property Name="mobile" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="150" />
+    <Property Name="address" Type="nvarchar" MaxLength="300" />
+    <Property Name="customer_image" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Accounting_DB.dbo.Login' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Login">
+          <Property Name="Username" Type="nvarchar" MaxLength="100" />
+          <Property Name="password" Type="nvarchar" MaxLength="50" />
+        </EntityType>-->
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Accounting_AccountingTypes1">
+    <End Role="AccountingTypes" Type="Self.AccountingTypes" Multiplicity="1" />
+    <End Role="Accounting" Type="Self.Accounting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccountingTypes">
+        <PropertyRef Name="TypeID" />
+      </Principal>
+      <Dependent Role="Accounting">
+        <PropertyRef Name=" Type_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Accounting_Customers">
+    <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+    <End Role="Accounting" Type="Self.Accounting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Accounting">
+        <PropertyRef Name="Customer_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Accounting_DBModelStoreContainer">
+    <EntitySet Name="Accounting" EntityType="Self.Accounting" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AccountingTypes" EntityType="Self.AccountingTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Accounting_AccountingTypes1" Association="Self.FK_Accounting_AccountingTypes1">
+      <End Role="AccountingTypes" EntitySet="AccountingTypes" />
+      <End Role="Accounting" EntitySet="Accounting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Accounting_Customers" Association="Self.FK_Accounting_Customers">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Accounting" EntitySet="Accounting" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,6 @@
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_ViewModel\bin\Debug\Accounting_ViewModel.dll
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_ViewModel\bin\Debug\Accounting_ViewModel.pdb
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_ViewModel\obj\Debug\Accounting_ViewModel.csproj.AssemblyReference.cache
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_ViewModel\obj\Debug\Accounting_ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_ViewModel\obj\Debug\Accounting_ViewModel.dll
+C:\Users\Unknwoun\Downloads\c# Proffesional\Accounting\Accounting\Accounting_ViewModel\obj\Debug\Accounting_ViewModel.pdb
