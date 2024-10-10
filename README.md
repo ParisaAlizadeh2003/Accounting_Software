@@ -34,5 +34,9 @@ This is a **Windows Forms-based Accounting Software** developed using a **5-laye
 ## Getting Started
 
 1. **Set Up the Database**: Use SQL Server to create the database and then generate the models using the **Entity Framework Database First** approach.
+<<<<<<< HEAD
 2. **Configure the Application**: Update the connection string in the application’s configuration file.
+=======
+2. **Configure the Application**: Update the connection string in the applicationâ€™s configuration file.
+>>>>>>> eaed563aa1cf9495b2b8eac02ff8ba7f02dedf02
 3. **Run the Application**: Open the solution in Visual Studio and run the project.
